@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*",
+        "neos/nodetypes": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "vendor/fokussiert",
+    "autoload": {
+        "psr-4": {
+            "vendor\\fokussiert\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "vendor.fokussiert"
+        }
+    }
+}
